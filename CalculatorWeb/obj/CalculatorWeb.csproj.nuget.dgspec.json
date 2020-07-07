@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\CalculatorWeb\\CalculatorWeb\\CalculatorWeb.csproj": {}
+    "C:\\Users\\user\\Desktop\\WebCalculator-master\\WebCalculator-master\\WebCalculator\\CalculatorWeb\\CalculatorWeb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\CalculatorWeb\\CalculatorWeb\\CalculatorWeb.csproj": {
+    "C:\\Users\\user\\Desktop\\WebCalculator-master\\WebCalculator-master\\WebCalculator\\CalculatorWeb\\CalculatorWeb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\CalculatorWeb\\CalculatorWeb\\CalculatorWeb.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\WebCalculator-master\\WebCalculator-master\\WebCalculator\\CalculatorWeb\\CalculatorWeb.csproj",
         "projectName": "CalculatorWeb",
-        "projectPath": "C:\\Users\\user\\source\\repos\\CalculatorWeb\\CalculatorWeb\\CalculatorWeb.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\WebCalculator-master\\WebCalculator-master\\WebCalculator\\CalculatorWeb\\CalculatorWeb.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\CalculatorWeb\\CalculatorWeb\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\WebCalculator-master\\WebCalculator-master\\WebCalculator\\CalculatorWeb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

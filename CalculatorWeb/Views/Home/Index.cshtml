@@ -28,7 +28,7 @@
                         <option value="/">/</option>
                         <option value="*">*</option>
                     </select>
-                    <br><input type="submit" value="Submit" class="btn btn-primary">
+                    <br><input type="submit" value="Calculate" class="btn btn-primary">
                 </div>
 
             </form>
@@ -36,9 +36,10 @@
 
 
             <p>
-                <h3><span class="badge badge-success">Result:</span> <input type="number" asp-for="@ViewData["result"]"></h3>
+                
+                
+                <h3><span class="badge badge-success">Result:</span>       @ViewData["result"] </h3>
 
-</p>
         </div>
 
 
