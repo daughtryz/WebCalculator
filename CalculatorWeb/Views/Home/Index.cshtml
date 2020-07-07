@@ -1,0 +1,46 @@
+﻿
+@model CalculatorWeb.Models.Calculator;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Calculator</h1>
+
+
+        <div class="border border-primary">
+            <p>
+            <form method="post">
+
+                <div class="form-group">
+                    <label for="firstOperand"><h3><span class="badge badge-primary">Input First Operand</span></h3></label>
+                    <br><input type="text" name="firstOperand"><br><br>
+                   <label for="secondOperand"><h3><span class="badge badge-primary">Input Second Operand</span></h3></label>
+                    <br><input type="text" name="secondOperand"><br><br>
+
+
+                    <label for="operators"><h3><span class="badge badge-primary">Choose an operator:</span></h3></label>
+
+                    <select name="operatorValue">
+                        <option value="-">-</option>
+                        <option value="+">+</option>
+                        <option value="/">/</option>
+                        <option value="*">*</option>
+                    </select>
+                    <br><input type="submit" value="Submit" class="btn btn-primary">
+                </div>
+
+            </form>
+                </p>
+
+
+            <p>
+                <h3><span class="badge badge-success">Result:</span> <input type="number" asp-for="@ViewData["result"]"></h3>
+
+</p>
+        </div>
+
+
+
+    </div>
